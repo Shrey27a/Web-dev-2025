@@ -1,0 +1,89 @@
+  <!-- Types of selectors
+   1. By Tag name
+   2. Class
+   3. Id    -->
+
+
+
+   <!-- By tag name -->
+    <!-- when we write tag name and inside it when we implement css thats is known as tag selector-->
+
+   h1{
+      color:red;
+      font-size:15px;
+   }
+
+   table{
+
+   }
+
+   div{
+
+   }
+
+
+   <!-- CLASS selector-->
+
+   .header{
+    <!-- this will create in css and how to use it in html it is shown below using div tag-->
+   }
+
+   <div class="header"></div>
+
+
+   <!-- valid ways for writing class name-->
+
+   1.     .header{
+                   
+            }
+
+   2.     .list-menu{
+
+             }
+   3.      .side_text{
+
+            }          
+
+   4.       .footerHeading{
+
+            }        
+            
+            
+<!--ID SELECTOR-->
+
+#menu{
+
+}
+
+<ul id="menu">
+    <li> some text</li>
+    <li> some text</li>
+    <li> some text</li>
+</ul>
+
+
+<!--diff between ID and CLASS -->
+
+ID : It can only use one time in one page. eg --- for header and footer we can use id 
+CLASS : It can use multiple times in one page.
+
+
+
+<!-- DESCENDANT SELECTOR -->
+ #header a {  <!-- if we use onle a (anchor) in css then it will apply all the style in anchor tag of html sheet
+    
+    but here we use #header a  --- it means in html jo hmari header id hogi usme jaha bhi anchor tag hoga usme ye css apply krdo jo humne css mei specify kri hai -->
+
+    here #header is parent selecor and a is chile selector 
+
+ }
+
+
+ .list p{
+    <!-- it means jo hmari list class hai html mei usme jitne bhi paragraphs hai usme ye apply krdo-->
+ }
+
+
+ ul#menu li{
+    <!-- iska mtlb hai hmari jo unordered list hai usme jaha menu name ki id hai usme jitni bhi list hai usme canges apply krdo-->
+ }
